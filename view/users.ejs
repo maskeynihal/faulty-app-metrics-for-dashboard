@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Total Number of users</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .widget-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+      .finding {
+        text-align: center;
+        padding: 20px;
+      }
+      .finding h1 {
+        margin: 0;
+        color: #0073bb;
+      }
+      .finding h2 {
+        margin-top: 5px;
+        color: #333;
+      }
+      .finding p {
+        margin-top: 5px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="widget-container">
+      <div class="finding">
+        <h1><%= totalUsers %></h1>
+        <p>Active Users</p>
+      </div>
+    </div>
+  </body>
+</html>
